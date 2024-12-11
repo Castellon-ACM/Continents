@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { Country, CountryService } from '../api';
 import ContinentsList from '../components/ContinentsList';
-import { RootStackParamList } from '../App';
+import { RootStackParamList } from '../../App';
 
 type ContinentsScreenNavigationProp = StackNavigationProp<RootStackParamList, 'ContinentsScreen'>;
 
